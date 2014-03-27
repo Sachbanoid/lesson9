@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:entries="@array/entries"
+        android:entryValues="@array/entries"
+        android:key="list"
+        android:title="City"
+        android:defaultValue="Sankt-Peterburg">
+    </ListPreference>
+    <ListPreference
+        android:entries="@array/degree"
+        android:entryValues="@array/degree"
+        android:key="degree"
+        android:title="Degrees"
+        android:defaultValue="Celsius">
+    </ListPreference>
+    <ListPreference
+        android:entries="@array/distance"
+        android:entryValues="@array/distance"
+        android:key="distance"
+        android:title="Distances"
+        android:defaultValue="Kilometers">
+    </ListPreference>
+</PreferenceScreen>

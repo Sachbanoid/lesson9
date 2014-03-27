@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#96B4E4"
+     >
+
+    <TextView
+        android:id="@+id/cityCountry"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:editable="false"
+        android:text="Sankt-Peterburg, Russia"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/dateTime"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cityCountry"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:editable="false"
+        android:text="1 january, 14:25"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/dateTime"
+        android:minHeight="100dp"
+        android:minWidth="100dp" />
+
+    <TextView
+        android:id="@+id/temperature"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/dateTime"
+        android:layout_marginBottom="10dp"
+        android:text="+15°С"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/wind"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/temperature"
+        android:text="wind 3 m/s" />
+
+    <TextView
+        android:id="@+id/pressure"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/wind"
+        android:text="pressure 760 mm" />
+
+    <TextView
+        android:id="@+id/humidity"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pressure"
+        android:text="humidity 50%" />
+
+    <TextView
+        android:id="@+id/sync"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/humidity"
+        android:text="last sync: 14:25, 37 marchober" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/sync" />
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather</string>
+    <string-array name="entries">
+        <item>Moscow</item>
+        <item>Sankt-Peterburg</item>
+        <item>London</item>
+        <item>Paris</item>
+        <item>Rome</item>
+    </string-array>
+    <string-array name="degree">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+    <string-array name="distance">
+        <item>Kilometers</item>
+        <item>Miles</item>
+    </string-array>
+</resources>
